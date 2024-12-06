@@ -1,0 +1,84 @@
+2024-12-04 11:30:01.405 [info] Extension host with pid 150 started
+2024-12-04 11:30:01.405 [error] Error: EEXIST: file already exists, open '/workspace/.vscode-remote/data/User/workspaceStorage/6bd265c7/vscode.lock'
+2024-12-04 11:30:01.408 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/6bd265c7/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-12-04 11:30:01.409 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/6bd265c7/vscode.lock': The pid 136 appears to be gone.
+2024-12-04 11:30:01.409 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/6bd265c7/vscode.lock': Deleting a stale lock.
+2024-12-04 11:30:01.417 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/6bd265c7/vscode.lock': Lock acquired.
+2024-12-04 11:30:01.524 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onWebviewPanel:simpleBrowser.view'
+2024-12-04 11:30:01.525 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-12-04 11:30:01.525 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-12-04 11:30:01.526 [info] ExtensionService#_doActivateExtension gitpod.gitpod-web, startup: false, activationEvent: 'onAuthenticationRequest:gitpod'
+2024-12-04 11:30:02.343 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-12-04 11:30:02.355 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-12-04 11:30:03.134 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-12-04 11:30:03.134 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-12-04 11:30:04.035 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml'
+2024-12-04 11:30:04.636 [info] Eager extensions activated
+2024-12-04 11:30:04.636 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-04 11:30:04.656 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-04 11:30:04.656 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2024-12-04 11:30:05.550 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2024-12-04 11:30:06.140 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-04 11:30:06.140 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-04 11:30:06.530 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-12-04 11:30:06.533 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-12-04 11:30:11.864 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-12-04 12:12:35.576 [error] [vscode.typescript-language-features] provider FAILED
+2024-12-04 12:12:35.576 [error] Error: <semantic> TypeScript Server Error (5.6.3)
+Debug Failure. False expression.
+Error: Debug Failure. False expression.
+    at getChildListThatStartsWithOpenerToken (/ide/extensions/node_modules/typescript/lib/typescript.js:174318:9)
+    at getArgumentOrParameterListAndIndex (/ide/extensions/node_modules/typescript/lib/typescript.js:174073:20)
+    at getArgumentOrParameterListInfo (/ide/extensions/node_modules/typescript/lib/typescript.js:174064:16)
+    at getImmediatelyContainingArgumentInfo (/ide/extensions/node_modules/typescript/lib/typescript.js:174083:18)
+    at Object.getArgumentInfoForCompletions (/ide/extensions/node_modules/typescript/lib/typescript.js:174060:16)
+    at getContextualType (/ide/extensions/node_modules/typescript/lib/typescript.js:165514:48)
+    at getCompletionData (/ide/extensions/node_modules/typescript/lib/typescript.js:165752:43)
+    at Object.getCompletionsAtPosition (/ide/extensions/node_modules/typescript/lib/typescript.js:163631:26)
+    at Object.getCompletionsAtPosition2 [as getCompletionsAtPosition] (/ide/extensions/node_modules/typescript/lib/typescript.js:150146:35)
+    at IpcIOSession.getCompletions (/ide/extensions/node_modules/typescript/lib/typescript.js:191877:54)
+    at completionInfo (/ide/extensions/node_modules/typescript/lib/typescript.js:190200:43)
+    at /ide/extensions/node_modules/typescript/lib/typescript.js:192651:15
+    at IpcIOSession.executeWithRequestId (/ide/extensions/node_modules/typescript/lib/typescript.js:192640:14)
+    at IpcIOSession.executeCommand (/ide/extensions/node_modules/typescript/lib/typescript.js:192649:29)
+    at IpcIOSession.onMessage (/ide/extensions/node_modules/typescript/lib/typescript.js:192697:68)
+    at process.<anonymous> (/ide/extensions/node_modules/typescript/lib/tsserver.js:525:14)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/ide/extensions/typescript-language-features/dist/extension.js:1:487228)
+	at y.dispatchResponse (/ide/extensions/typescript-language-features/dist/extension.js:1:481198)
+	at y.dispatchMessage (/ide/extensions/typescript-language-features/dist/extension.js:1:479996)
+	at ChildProcess.<anonymous> (/ide/extensions/typescript-language-features/dist/extension.js:1:479489)
+	at ChildProcess.emit (node:events:519:28)
+	at emit (node:internal/child_process:951:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-12-04 12:12:35.581 [error] [vscode.typescript-language-features] provider FAILED
+2024-12-04 12:12:35.581 [error] Error: <semantic> TypeScript Server Error (5.6.3)
+Debug Failure. False expression.
+Error: Debug Failure. False expression.
+    at getChildListThatStartsWithOpenerToken (/ide/extensions/node_modules/typescript/lib/typescript.js:174318:9)
+    at getArgumentOrParameterListAndIndex (/ide/extensions/node_modules/typescript/lib/typescript.js:174073:20)
+    at getArgumentOrParameterListInfo (/ide/extensions/node_modules/typescript/lib/typescript.js:174064:16)
+    at getImmediatelyContainingArgumentInfo (/ide/extensions/node_modules/typescript/lib/typescript.js:174083:18)
+    at getImmediatelyContainingArgumentOrContextualParameterInfo (/ide/extensions/node_modules/typescript/lib/typescript.js:174140:70)
+    at getContainingArgumentInfo (/ide/extensions/node_modules/typescript/lib/typescript.js:174308:26)
+    at Object.getSignatureHelpItems (/ide/extensions/node_modules/typescript/lib/typescript.js:173965:24)
+    at Object.getSignatureHelpItems2 [as getSignatureHelpItems] (/ide/extensions/node_modules/typescript/lib/typescript.js:150335:37)
+    at IpcIOSession.getSignatureHelpItems (/ide/extensions/node_modules/typescript/lib/typescript.js:191991:52)
+    at signatureHelp (/ide/extensions/node_modules/typescript/lib/typescript.js:190229:43)
+    at /ide/extensions/node_modules/typescript/lib/typescript.js:192651:15
+    at IpcIOSession.executeWithRequestId (/ide/extensions/node_modules/typescript/lib/typescript.js:192640:14)
+    at IpcIOSession.executeCommand (/ide/extensions/node_modules/typescript/lib/typescript.js:192649:29)
+    at IpcIOSession.onMessage (/ide/extensions/node_modules/typescript/lib/typescript.js:192697:68)
+    at process.<anonymous> (/ide/extensions/node_modules/typescript/lib/tsserver.js:525:14)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/ide/extensions/typescript-language-features/dist/extension.js:1:487228)
+	at y.dispatchResponse (/ide/extensions/typescript-language-features/dist/extension.js:1:481198)
+	at y.dispatchMessage (/ide/extensions/typescript-language-features/dist/extension.js:1:479996)
+	at ChildProcess.<anonymous> (/ide/extensions/typescript-language-features/dist/extension.js:1:479489)
+	at ChildProcess.emit (node:events:519:28)
+	at emit (node:internal/child_process:951:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)

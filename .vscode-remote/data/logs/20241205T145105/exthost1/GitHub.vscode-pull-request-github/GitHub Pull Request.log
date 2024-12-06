@@ -1,0 +1,15 @@
+2024-12-05 14:51:16.776 [warning] /home/gitpod/.ssh/config: ENOENT: no such file or directory, open '/home/gitpod/.ssh/config'
+2024-12-05 14:51:16.776 [info] Activation> Extension version: 0.100.3
+2024-12-05 14:51:17.530 [info] Looking for git repository
+2024-12-05 14:51:17.530 [info] Found 0 repositories during activation
+2024-12-05 14:51:17.530 [info] Git repository found, initializing review manager and pr tree view.
+2024-12-05 14:51:17.534 [info] Registering git provider
+2024-12-05 14:51:17.534 [info] Review+0> Validate state in progress
+2024-12-05 14:51:17.534 [info] Review+0> Validating state...
+2024-12-05 14:51:17.868 [info] Found GitHub remote for folder /workspace/boilerplate-project-american-british-english-translator
+2024-12-05 14:51:18.378 [info] Trying to use globalState for assignableUsers.
+2024-12-05 14:51:18.711 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-12-05 14:51:18.924 [info] Using globalState assignableUsers for 1.
+2024-12-05 14:51:19.458 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-12-05 14:52:20.215 [info] Repo state for file:///workspace/boilerplate-project-american-british-english-translator changed.
+2024-12-05 14:52:20.215 [info] Repo file:///workspace/boilerplate-project-american-british-english-translator has already been setup.
